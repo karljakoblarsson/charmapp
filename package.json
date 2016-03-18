@@ -1,0 +1,33 @@
+{
+  "name": "charm-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Prototype of an app for the Chalmers Student Union workfair CHARM.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakob Larsson",
+  "license": "MIT",
+  "dependencies": {
+    "material-ui": "^0.15.0-alpha.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-router": "^2.0.1",
+    "react-tap-event-plugin": "^0.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.9"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
