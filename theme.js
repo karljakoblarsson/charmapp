@@ -4,8 +4,9 @@ import zIndex from 'material-ui/lib/styles/zIndex';
 
 import * as Colors from 'material-ui/lib/styles/colors';
 
-const CHARMröd = "#aa2010";
-const kårblå = "#3030BB";
+const CHARMröd = "rgb(216,31,42)";
+const kårblå = "rgb(0,149,215)";
+const CHARMgrå = "rgb(217,213,210)";
 
 export default {
   spacing: Spacing,

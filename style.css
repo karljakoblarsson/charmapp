@@ -1,5 +1,32 @@
 
 body {
-  margin: 0
+  margin: 0;
+}
+
+.stuff {
+  padding: 2em;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 0.5em auto;
+}
+
+input {
+  width: 100%;
+}
+
+form {
+  margin: 0.5em 1em;
+}
+
+.company-list {
+  height: 84vh;
+  overflow: scroll;
+}
+
+.logo {
+  max-width: 25vh;
 }
 
